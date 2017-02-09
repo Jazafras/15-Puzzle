@@ -19,7 +19,14 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBOutlet weak var boardView: BoardView!
+    
+    @IBAction func tileSelected(_ sender: UIButton) {
+        let tag = sender.tag
+        NSLog("tileSelected: \(tag)")
+    }
+    @IBAction func shuffleTiles(_ sender: AnyObject) {  }
 
 }
 
