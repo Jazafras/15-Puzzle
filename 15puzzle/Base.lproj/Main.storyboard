@@ -126,7 +126,7 @@
                                             <constraint firstAttribute="height" constant="44" id="Ja4-zx-Zu5"/>
                                         </constraints>
                                         <items>
-                                            <barButtonItem title="Item" id="sMg-bC-jQT" userLabel="UIBarButtonItem"/>
+                                            <barButtonItem title="Shuffle" id="sMg-bC-jQT" userLabel="UIBarButtonItem"/>
                                         </items>
                                     </toolbar>
                                 </subviews>

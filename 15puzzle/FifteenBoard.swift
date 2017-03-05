@@ -22,9 +22,9 @@ class FifteenBoard: UIView {
         var c:Int
         var temp1:Int
         var temp2:Int
-        var check = false
-        
-        while( n > 0){
+        var numerations:Int
+        numerations = 0
+        while( numerations < n){
             r = Int(arc4random_uniform(4))
             c = Int(arc4random_uniform(4))
             if self.canSlideTileDown(atRow: r, Column: c){
@@ -32,37 +32,37 @@ class FifteenBoard: UIView {
                 temp2 = state[r+1][c]
                 state[r][c] = temp2
                 state[r+1][c] = temp1
-                n -= 1
+                numerations += 1
             }
             else if self.canSlideTileUp(atRow: r, Column: c){
                 temp1 = state[r][c]
                 temp2 = state[r-1][c]
                 state[r][c] = temp2
                 state[r-1][c] = temp1
-                n -= 1
+                numerations += 1
             }
             else if self.canSlideTileLeft(atRow: r, Column: c){
                 temp1 = state[r][c]
                 temp2 = state[r][c-1]
                 state[r][c] = temp2
                 state[r][c-1] = temp1
-                n -= 1
+                numerations += 1
             }
             else if self.canSlideTileRight(atRow: r, Column: c){
                 temp1 = state[r][c]
                 temp2 = state[r][c+1]
                 state[r][c] = temp2
                 state[r][c+1] = temp1
-                n -= 1
+                numerations += 1
             }
         }
     }
     
-    func getTile(atRow r:Int, atColumn c:Int){
+    func getTile(atRow r:Int, atColumn c:Int) -> Int {
         return state[r][c]
     }
     
-    func getRowAndColumn(forTile tile: Int){
+    func getRowAndColumn(forTile tile: Int) -> (row: Int, column: Int){
         var row:Int
         var col:Int
         for r in 0 ..< 4 {
@@ -73,10 +73,10 @@ class FifteenBoard: UIView {
                 }
             }
         }
-        return state[row][col]
+        return (row,col)
     }
 
-    func isSolved(){
+    func isSolved() -> Bool {
         var check = true
         var solution: [[Int]]
         var tile:Int
@@ -105,7 +105,7 @@ class FifteenBoard: UIView {
         return check
     }
     
-    func canSlideTileUp(atRow r : Int, Column c : Int){
+    func canSlideTileUp(atRow r : Int, Column c : Int) -> Bool {
         if r != 0 && state[r-1][c] == 0 {
             return true
         }
@@ -114,7 +114,7 @@ class FifteenBoard: UIView {
         }
     }
     
-    func canSlideTileDown(atRow r : Int, Column c : Int){
+    func canSlideTileDown(atRow r : Int, Column c : Int) -> Bool {
         if r != 3 && state[r+1][c] == 0 {
             return true
         }
@@ -123,7 +123,7 @@ class FifteenBoard: UIView {
         }
     }
     
-    func canSlideTileLeft(atRow r : Int, Column c : Int){
+    func canSlideTileLeft(atRow r : Int, Column c : Int) -> Bool {
         if c != 0 && state[r][c-1] == 0 {
             return true
         }
@@ -132,7 +132,7 @@ class FifteenBoard: UIView {
         }
     }
     
-    func canSlideTileRight(atRow r : Int, Column c : Int){
+    func canSlideTileRight(atRow r : Int, Column c : Int) -> Bool {
         if c != 3 && state[r][c+1] == 0 {
             return true
         }
@@ -141,7 +141,7 @@ class FifteenBoard: UIView {
         }
     }
     
-    func canSlideTile(atRow r : Int, Column c : Int){
+    func canSlideTile(atRow r : Int, Column c : Int) -> Bool {
         if self.canSlideTileDown(atRow: r, Column: c) || self.canSlideTileUp(atRow: r, Column: c) || self.canSlideTileLeft(atRow: r, Column: c) || self.canSlideTileRight(atRow: r, Column: c){
            return true
         }
