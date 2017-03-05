@@ -32,24 +32,28 @@ class FifteenBoard: UIView {
                 temp2 = state[r+1][c]
                 state[r][c] = temp2
                 state[r+1][c] = temp1
+                n -= 1
             }
             else if self.canSlideTileUp(atRow: r, Column: c){
                 temp1 = state[r][c]
                 temp2 = state[r-1][c]
                 state[r][c] = temp2
                 state[r-1][c] = temp1
+                n -= 1
             }
             else if self.canSlideTileLeft(atRow: r, Column: c){
                 temp1 = state[r][c]
                 temp2 = state[r][c-1]
                 state[r][c] = temp2
                 state[r][c-1] = temp1
+                n -= 1
             }
             else if self.canSlideTileRight(atRow: r, Column: c){
                 temp1 = state[r][c]
                 temp2 = state[r][c+1]
                 state[r][c] = temp2
                 state[r][c+1] = temp1
+                n -= 1
             }
         }
     }
