@@ -24,146 +24,146 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fc-ji-7qW" userLabel="UIView">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3K-2Q-Ofp" userLabel="BoardView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3K-2Q-Ofp" userLabel="BoardView" customClass="BoardView" customModule="_5puzzle" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYM-2K-bTc">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYM-2K-bTc">
                                                 <rect key="frame" x="45" y="83" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="1"/>
+                                                <state key="normal" title="1" backgroundImage="kermit [www.imagesplitter.net]-0-0.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E8U-gc-LbU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KG-W8-QaU">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2KG-W8-QaU">
                                                 <rect key="frame" x="118" y="83" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="2"/>
+                                                <state key="normal" title="2" backgroundImage="kermit [www.imagesplitter.net]-0-1.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Njd-BK-iaH"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeP-a0-sUU">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeP-a0-sUU">
                                                 <rect key="frame" x="191" y="83" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="3"/>
+                                                <state key="normal" title="3" backgroundImage="kermit [www.imagesplitter.net]-0-2.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9d-bo-UGZ"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETc-Ap-IwI">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETc-Ap-IwI">
                                                 <rect key="frame" x="264" y="83" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="4"/>
+                                                <state key="normal" title="4" backgroundImage="kermit [www.imagesplitter.net]-0-3.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Urx-Mp-DQ7"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivb-Uc-bHG">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivb-Uc-bHG">
                                                 <rect key="frame" x="45" y="156" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="5"/>
+                                                <state key="normal" title="5" backgroundImage="kermit [www.imagesplitter.net]-1-0.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vtG-Gn-Een"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AD4-kX-WXk">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AD4-kX-WXk">
                                                 <rect key="frame" x="118" y="156" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="6"/>
+                                                <state key="normal" title="6" backgroundImage="kermit [www.imagesplitter.net]-1-1.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TNy-o8-7po"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIo-oi-ore">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIo-oi-ore">
                                                 <rect key="frame" x="191" y="156" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="7"/>
+                                                <state key="normal" title="7" backgroundImage="kermit [www.imagesplitter.net]-1-2.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t6m-yQ-xd3"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLe-pi-ug7">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLe-pi-ug7">
                                                 <rect key="frame" x="264" y="156" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="8"/>
+                                                <state key="normal" title="8" backgroundImage="kermit [www.imagesplitter.net]-1-3.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98c-Lf-UFK"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3J-FP-rea">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3J-FP-rea">
                                                 <rect key="frame" x="45" y="229" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="9"/>
+                                                <state key="normal" title="9" backgroundImage="kermit [www.imagesplitter.net]-2-0.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="14a-eJ-bAS"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVV-Xu-6Ws">
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVV-Xu-6Ws">
                                                 <rect key="frame" x="118" y="229" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="10"/>
+                                                <state key="normal" title="10" backgroundImage="kermit [www.imagesplitter.net]-2-1.jpeg"/>
                                                 <connections>
-                                                    <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZm-Ms-bLw"/>
+                                                    <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JAz-5O-93w"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7x-iJ-Jny">
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7x-iJ-Jny">
                                                 <rect key="frame" x="191" y="229" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="11"/>
+                                                <state key="normal" title="11" backgroundImage="kermit [www.imagesplitter.net]-2-2.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PkM-Ps-zW2"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAz-Jg-egp">
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAz-Jg-egp">
                                                 <rect key="frame" x="264" y="229" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="12"/>
+                                                <state key="normal" title="12" backgroundImage="kermit [www.imagesplitter.net]-2-3.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="byp-vD-wnA"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-KP-dib">
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-KP-dib">
                                                 <rect key="frame" x="45" y="302" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="13"/>
+                                                <state key="normal" title="13" backgroundImage="kermit [www.imagesplitter.net]-3-0.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nVw-ui-fss"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxB-QW-VPd">
+                                            <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxB-QW-VPd">
                                                 <rect key="frame" x="118" y="302" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="14"/>
+                                                <state key="normal" title="14" backgroundImage="kermit [www.imagesplitter.net]-3-1.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q0w-nM-YkC"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dn-PN-WQM">
+                                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dn-PN-WQM">
                                                 <rect key="frame" x="191" y="302" width="65" height="65"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <state key="normal" title="15"/>
+                                                <state key="normal" title="15" backgroundImage="kermit [www.imagesplitter.net]-3-2.jpeg"/>
                                                 <connections>
                                                     <action selector="tileSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPg-hO-Y2P"/>
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.69503154114357857" green="0.84205454184096573" blue="0.86463730569948183" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tf4-1K-6KG" userLabel="UIToolBar">
                                         <rect key="frame" x="0.0" y="603" width="375" height="44"/>
@@ -173,7 +173,7 @@
                                         <items>
                                             <barButtonItem title="Shuffle" id="sMg-bC-jQT" userLabel="UIBarButtonItem">
                                                 <connections>
-                                                    <action selector="shuffleTiles:" destination="BYZ-38-t0r" id="t7y-EH-sTl"/>
+                                                    <action selector="shuffleTiles:" destination="BYZ-38-t0r" id="8qg-iA-nu8"/>
                                                 </connections>
                                             </barButtonItem>
                                         </items>
@@ -200,10 +200,31 @@
                             <constraint firstItem="3fc-ji-7qW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sWp-9Q-Y4K"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BoardView" destination="g3K-2Q-Ofp" id="gHW-El-WqU"/>
+                        <outlet property="boardView" destination="g3K-2Q-Ofp" id="4Cc-56-8Qo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="36.431784107946029"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="kermit [www.imagesplitter.net]-0-0.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-0-1.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-0-2.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-0-3.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-1-0.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-1-1.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-1-2.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-1-3.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-2-0.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-2-1.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-2-2.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-2-3.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-3-0.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-3-1.jpeg" width="86" height="65"/>
+        <image name="kermit [www.imagesplitter.net]-3-2.jpeg" width="86" height="65"/>
+    </resources>
 </document>

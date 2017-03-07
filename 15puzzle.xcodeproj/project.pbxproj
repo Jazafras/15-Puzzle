@@ -12,7 +12,23 @@
 		8F7FE3291E4CE207004A4E67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7FE3271E4CE207004A4E67 /* Main.storyboard */; };
 		8F7FE32B1E4CE207004A4E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F7FE32A1E4CE207004A4E67 /* Assets.xcassets */; };
 		8F7FE32E1E4CE207004A4E67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7FE32C1E4CE207004A4E67 /* LaunchScreen.storyboard */; };
-		8F7FE33C1E4CE767004A4E67 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7FE33B1E4CE767004A4E67 /* BoardView.swift */; };
+		8F8781671E6F2D6800BE60B4 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8781661E6F2D6800BE60B4 /* BoardView.swift */; };
+		8F8781791E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781691E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-0.jpeg */; };
+		8F87817A1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F87816A1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-1.jpeg */; };
+		8F87817B1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F87816B1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-2.jpeg */; };
+		8F87817C1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F87816C1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-3.jpeg */; };
+		8F87817D1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F87816D1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-0.jpeg */; };
+		8F87817E1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F87816E1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-1.jpeg */; };
+		8F87817F1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F87816F1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-2.jpeg */; };
+		8F8781801E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781701E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-3.jpeg */; };
+		8F8781811E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781711E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-0.jpeg */; };
+		8F8781821E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781721E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-1.jpeg */; };
+		8F8781831E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781731E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-2.jpeg */; };
+		8F8781841E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781741E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-3.jpeg */; };
+		8F8781851E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781751E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-0.jpeg */; };
+		8F8781861E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781761E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-1.jpeg */; };
+		8F8781871E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781771E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-2.jpeg */; };
+		8F8781881E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8781781E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-3.jpeg */; };
 		8FE2F6531E6B9084009EF82F /* FifteenBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE2F6521E6B9084009EF82F /* FifteenBoard.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +40,23 @@
 		8F7FE32A1E4CE207004A4E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F7FE32D1E4CE207004A4E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F7FE32F1E4CE207004A4E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F7FE33B1E4CE767004A4E67 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoardView.swift; path = ../BoardView.swift; sourceTree = "<group>"; };
+		8F8781661E6F2D6800BE60B4 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		8F8781691E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-0-0.jpeg"; sourceTree = "<group>"; };
+		8F87816A1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-0-1.jpeg"; sourceTree = "<group>"; };
+		8F87816B1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-0-2.jpeg"; sourceTree = "<group>"; };
+		8F87816C1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-0-3.jpeg"; sourceTree = "<group>"; };
+		8F87816D1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-1-0.jpeg"; sourceTree = "<group>"; };
+		8F87816E1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-1-1.jpeg"; sourceTree = "<group>"; };
+		8F87816F1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-1-2.jpeg"; sourceTree = "<group>"; };
+		8F8781701E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-1-3.jpeg"; sourceTree = "<group>"; };
+		8F8781711E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-2-0.jpeg"; sourceTree = "<group>"; };
+		8F8781721E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-2-1.jpeg"; sourceTree = "<group>"; };
+		8F8781731E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-2-2.jpeg"; sourceTree = "<group>"; };
+		8F8781741E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-2-3.jpeg"; sourceTree = "<group>"; };
+		8F8781751E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-3-0.jpeg"; sourceTree = "<group>"; };
+		8F8781761E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-3-1.jpeg"; sourceTree = "<group>"; };
+		8F8781771E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-3-2.jpeg"; sourceTree = "<group>"; };
+		8F8781781E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kermit [www.imagesplitter.net]-3-3.jpeg"; sourceTree = "<group>"; };
 		8FE2F6521E6B9084009EF82F /* FifteenBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifteenBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +74,22 @@
 		8F7FE3171E4CE207004A4E67 = {
 			isa = PBXGroup;
 			children = (
+				8F8781691E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-0.jpeg */,
+				8F87816A1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-1.jpeg */,
+				8F87816B1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-2.jpeg */,
+				8F87816C1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-3.jpeg */,
+				8F87816D1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-0.jpeg */,
+				8F87816E1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-1.jpeg */,
+				8F87816F1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-2.jpeg */,
+				8F8781701E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-3.jpeg */,
+				8F8781711E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-0.jpeg */,
+				8F8781721E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-1.jpeg */,
+				8F8781731E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-2.jpeg */,
+				8F8781741E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-3.jpeg */,
+				8F8781751E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-0.jpeg */,
+				8F8781761E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-1.jpeg */,
+				8F8781771E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-2.jpeg */,
+				8F8781781E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-3.jpeg */,
 				8F7FE3221E4CE207004A4E67 /* 15puzzle */,
 				8F7FE3211E4CE207004A4E67 /* Products */,
 			);
@@ -59,9 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				8F7FE3231E4CE207004A4E67 /* AppDelegate.swift */,
+				8F8781661E6F2D6800BE60B4 /* BoardView.swift */,
 				8FE2F6521E6B9084009EF82F /* FifteenBoard.swift */,
 				8F7FE3251E4CE207004A4E67 /* ViewController.swift */,
-				8F7FE33B1E4CE767004A4E67 /* BoardView.swift */,
 				8F7FE3271E4CE207004A4E67 /* Main.storyboard */,
 				8F7FE32A1E4CE207004A4E67 /* Assets.xcassets */,
 				8F7FE32C1E4CE207004A4E67 /* LaunchScreen.storyboard */,
@@ -130,9 +178,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F87817F1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-2.jpeg in Resources */,
+				8F8781811E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-0.jpeg in Resources */,
 				8F7FE32E1E4CE207004A4E67 /* LaunchScreen.storyboard in Resources */,
+				8F87817C1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-3.jpeg in Resources */,
+				8F87817B1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-2.jpeg in Resources */,
 				8F7FE32B1E4CE207004A4E67 /* Assets.xcassets in Resources */,
+				8F87817E1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-1.jpeg in Resources */,
+				8F87817D1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-0.jpeg in Resources */,
+				8F87817A1E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-1.jpeg in Resources */,
+				8F8781821E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-1.jpeg in Resources */,
+				8F8781881E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-3.jpeg in Resources */,
+				8F8781871E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-2.jpeg in Resources */,
 				8F7FE3291E4CE207004A4E67 /* Main.storyboard in Resources */,
+				8F8781831E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-2.jpeg in Resources */,
+				8F8781791E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-0-0.jpeg in Resources */,
+				8F8781841E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-2-3.jpeg in Resources */,
+				8F8781851E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-0.jpeg in Resources */,
+				8F8781861E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-3-1.jpeg in Resources */,
+				8F8781801E6F3B0900BE60B4 /* kermit [www.imagesplitter.net]-1-3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F7FE33C1E4CE767004A4E67 /* BoardView.swift in Sources */,
 				8F7FE3261E4CE207004A4E67 /* ViewController.swift in Sources */,
+				8F8781671E6F2D6800BE60B4 /* BoardView.swift in Sources */,
 				8FE2F6531E6B9084009EF82F /* FifteenBoard.swift in Sources */,
 				8F7FE3241E4CE207004A4E67 /* AppDelegate.swift in Sources */,
 			);

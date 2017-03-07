@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var boardView: BoardView!
+    @IBOutlet weak var boardView: UIView!
     
     @IBAction func tileSelected(_ sender: UIButton) {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
