@@ -1,23 +1,15 @@
-# Project Name/Title
+# 15 Puzzle
 
-A very brief (one to three sentences), high-level description of the project goes here.
-This should give someone unfamiliar with the project an idea
-of what the project is "at a glance."
+This project uses Xcode to create a simple game of 15 puzzle.
 
 ## Authors / Contact
 
-[John Doe](mailto:jdoe@wsu.edu)
+[Jasmine Emerson](mailto:jasmine.emerson@wsu.edu)
 
 ## Description
 
-A brief (paragraph or three / bullet list) description of the project.
-Thus should be mostly understandable to someone unfamiliar with the project
-(i.e., they have not read the course writeup).
-
-   * Motivate the project -- what's the goal?
-
-   * Main idea of your solution.
+Using Xcode's IB (interface builder) editor, the layout for this 15 puzzle game programmatically controls the size and position of the game tiles. The tiles are organized in a 4x4 grid with and ordered randomly. One tile can be slid into the empty face at a time with the purpose of the game to move the tiles in order. The FifteenBoard.swift functions determine whether a tile can be moved, where it moves, and whether the game is won.  
 
 ## How to build and run
 
-Explain to build and run the target program(s).
+To run this app on a Mac OS, the repository for this project must be saved in a local directory. Simply open it in Xcode and run the build command with an iOS simulator of choice.
