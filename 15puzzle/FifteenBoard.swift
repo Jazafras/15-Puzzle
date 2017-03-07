@@ -9,7 +9,7 @@
 import UIKit
 
 class FifteenBoard: UIView {
-
+    
     var state : [[Int]] = [
         [1, 2, 3, 4],
         [5, 6, 7, 8],
@@ -18,42 +18,11 @@ class FifteenBoard: UIView {
     ]
     
     func scramble(numTimes n : Int){
-        var r:Int
-        var c:Int
-        var temp1:Int
-        var temp2:Int
-        var numerations:Int
-        numerations = 0
-        while( numerations < n){
-            r = Int(arc4random_uniform(4))
-            c = Int(arc4random_uniform(4))
-            if self.canSlideTileDown(atRow: r, Column: c){
-                temp1 = state[r][c]
-                temp2 = state[r+1][c]
-                state[r][c] = temp2
-                state[r+1][c] = temp1
-                numerations += 1
-            }
-            else if self.canSlideTileUp(atRow: r, Column: c){
-                temp1 = state[r][c]
-                temp2 = state[r-1][c]
-                state[r][c] = temp2
-                state[r-1][c] = temp1
-                numerations += 1
-            }
-            else if self.canSlideTileLeft(atRow: r, Column: c){
-                temp1 = state[r][c]
-                temp2 = state[r][c-1]
-                state[r][c] = temp2
-                state[r][c-1] = temp1
-                numerations += 1
-            }
-            else if self.canSlideTileRight(atRow: r, Column: c){
-                temp1 = state[r][c]
-                temp2 = state[r][c+1]
-                state[r][c] = temp2
-                state[r][c+1] = temp1
-                numerations += 1
+        for _ in 0...n {
+            let randomRow = Int(arc4random_uniform(4))
+            let randomCol = Int(arc4random_uniform(4))
+            if canSlideTile(atRow: randomRow, Column: randomCol){
+                slideTile(atRow: randomRow, Column: randomCol)
             }
         }
     }
@@ -62,47 +31,28 @@ class FifteenBoard: UIView {
         return state[r][c]
     }
     
-    func getRowAndColumn(forTile tile: Int) -> (row: Int, column: Int){
-        var row:Int
-        var col:Int
-        for r in 0 ..< 4 {
-            for c in 0 ..< 4 {
-                if state[r][c] == tile {
-                    row = r
-                    col = c
+    func getRowAndColumn(forTile tile: Int) -> (row: Int, column: Int)?{
+        for r1 in 0 ..< 4 {
+            for c1 in 0 ..< 4 {
+                if state[r1][c1] == tile {
+                    return (r1,c1)
                 }
             }
         }
-        return (row,col)
+        return (0,0)
     }
-
+    
     func isSolved() -> Bool {
-        var check = true
-        var solution: [[Int]]
-        var tile:Int
-        
-        tile = 1
-        
-        for r in 0 ..< 4 {
-            for c in 0 ..< 4 {
-                if r == 3 && c == 3 {
-                    solution[r][c] = 0
+        var tile = 1
+        for r in 0...3 {
+            for c in 0...3{
+                if state[r][c] != tile && (r != 3 && c != 3){
+                    return false
                 }
-                else {
-                    solution[r][c] = tile
-                    tile += 1
-                }
+                tile += 1
             }
         }
-        
-        for r in 0 ..< 4 {
-            for c in 0 ..< 4 {
-                if state[r][c] != solution[r][c]{
-                    check = false
-                }
-            }
-        }
-        return check
+        return true
     }
     
     func canSlideTileUp(atRow r : Int, Column c : Int) -> Bool {
@@ -143,10 +93,34 @@ class FifteenBoard: UIView {
     
     func canSlideTile(atRow r : Int, Column c : Int) -> Bool {
         if self.canSlideTileDown(atRow: r, Column: c) || self.canSlideTileUp(atRow: r, Column: c) || self.canSlideTileLeft(atRow: r, Column: c) || self.canSlideTileRight(atRow: r, Column: c){
-           return true
+            return true
         }
         else{
             return false
+        }
+    }
+    
+    func slideTile(atRow r : Int, Column c : Int){
+        var temp = 0
+        if self.canSlideTileDown(atRow: r, Column: c){
+            temp = state[r][c]
+            state[r+1][c] = temp
+            state[r][c] = 0
+        }
+        else if self.canSlideTileUp(atRow: r, Column: c){
+            temp = state[r][c]
+            state[r-1][c] = temp
+            state[r][c] = 0
+        }
+        else if self.canSlideTileLeft(atRow: r, Column: c){
+            temp = state[r][c]
+            state[r][c-1] = temp
+            state[r][c] = 0
+        }
+        else if self.canSlideTileRight(atRow: r, Column: c){
+            temp = state[r][c]
+            state[r][c+1] = temp
+            state[r][c] = 0
         }
     }
     

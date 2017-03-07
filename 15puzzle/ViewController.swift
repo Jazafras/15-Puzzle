@@ -40,10 +40,11 @@ class ViewController: UIViewController {
         } else {
             slide = false
         }
+        UIView.animate(withDuration: 0.5, animations: {sender.center = buttonCenter})
         if slide { // update model and view
             board!.slideTile(atRow: pos!.row, Column: pos!.column)
             sender.center = buttonCenter // animate later
-            if (board!.isSolved()) { throwAPartyOnWin() }
+            if (board!.isSolved()) { /*throwAPartyOnWin() */}
         }
     }
     @IBAction func shuffleTiles(_ sender: AnyObject) {
